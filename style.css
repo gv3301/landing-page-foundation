@@ -1,0 +1,191 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.landschap{
+    
+    width: 100%;
+    height: 100%;
+}
+
+.kleinlandschap{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.headert{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding: 0 250px;
+    padding-bottom: 50px;
+}
+
+.header-left{
+    display: flex;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 800;
+}
+
+.header-right{
+    display: flex;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero{
+    display: flex;
+    background-color: #1f2937;
+    padding: 0 250px;
+    justify-content: space-between;
+    gap: 40px;
+    padding-bottom: 50px;
+    
+}
+
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    flex: 1;
+}
+
+.hero-right{
+    display: flex;
+    flex: 1;
+}
+
+.buttonf{
+    background-color: #3882f6;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    border: 0;
+    color: #e5e7eb;
+    margin-bottom: 50px;
+}
+
+.h1hero{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.herotext{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.sectietwee{
+    padding: 0 350px;
+    margin-bottom: 100px;
+}
+
+.h2titel{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.vierfotos{
+    display: flex;
+    text-align: center;
+    gap: 40px;
+}
+
+.koppel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thor{
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #e5e7eb;
+}
+
+.tekstquote{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.naamquote{
+    font-weight: 800;
+    text-align: end;
+    font-size: 36px;
+}
+
+.blauw{
+    margin: 80px 250px;
+    display: flex;
+    background-color: #3882f6;
+    gap: 50px;
+    justify-content: center;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.blauwlinks{
+    display: flex;
+    flex-direction: column;
+}
+
+.blauwrechts{
+    display: flex;
+    align-items: center;
+
+}
+
+.dik{
+    font-weight: 600;
+    font-size: 24px;
+    color: #f9faf8;
+    margin-bottom: 0;
+}
+
+.dun{
+    color: #e5e7eb;
+    margin-top: 0;
+}
+
+.knop{
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 6px;
+    padding: 5px 15px;
+}
+
+.foot{
+    text-align: center;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    margin: 0;
+    padding: 30px 0px;
+}
